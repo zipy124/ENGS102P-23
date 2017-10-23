@@ -170,13 +170,14 @@ hr.small {
   display: table;
   width: 100%;
   height: 100%;
-  color: aliceblue;
-  /*background: url(../img/vision.jpg) no-repeat center center scroll;*/
+  color: black;
+  background: url(../img/vision.jpg) no-repeat center center scroll;
   background-color: #007bff;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  padding: 50px 0;
 }
 
 /* About */
