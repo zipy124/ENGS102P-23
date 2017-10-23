@@ -15,6 +15,10 @@ body {
   font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+.img-re {
+    width: 100%;
+}
+
 .text-black {
     color: black;
 }
@@ -26,12 +30,17 @@ body {
 }
 
 .text-vertical-center h1 {
-  font-size: 4.5em;
+  font-size: 5vw;
   font-weight: 700;
   margin: 0;
   padding: 0;
 }
 
+.text-vertical-center h3 {
+  font-size: 3vw;
+  margin: 0;
+  padding: 0;
+}
 
 /* Custom Button Styles */
 
@@ -169,7 +178,6 @@ hr.small {
   -o-background-size: cover;
   background-size: cover;
 }
-
 
 /* About */
 
