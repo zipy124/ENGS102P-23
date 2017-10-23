@@ -170,7 +170,7 @@ hr.small {
   display: table;
   width: 100%;
   height: 100%;
-  color: black;
+  color: aliceblue;
   background: url(../img/vision.jpg) no-repeat center center scroll;
   background-color: #007bff;
   -webkit-background-size: cover;
@@ -178,6 +178,7 @@ hr.small {
   -o-background-size: cover;
   background-size: cover;
   padding: 50px 0;
+  -webkit-text-stroke: 2px black; /* stroke color and weight */
 }
 
 /* About */
