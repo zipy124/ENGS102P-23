@@ -178,7 +178,7 @@ hr.small {
   -o-background-size: cover;
   background-size: cover;
   padding: 50px 0;
-  -webkit-text-stroke: 2px black; /* stroke color and weight */
+  -webkit-text-stroke: 0.05em black; /* stroke color and weight */
 }
 
 /* About */
