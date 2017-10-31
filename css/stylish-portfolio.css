@@ -96,6 +96,10 @@ hr.small {
   -webkit-text-stroke: 0.05em black; /* stroke color and weight */
 }
 
+.malaria{
+    background: url(../img/mosq.jpg) no-repeat center center scroll;
+}
+
 /* About */
 
 .about {
