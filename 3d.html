@@ -42,15 +42,27 @@
               Areas
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item js-scroll-trigger" href="#overview">Overview</a>
-              <a class="dropdown-item js-scroll-trigger" href="#face">Facial Recognition</a>
-              <a class="dropdown-item js-scroll-trigger" href="#3d">3D object Recognition</a>
-              <a class="dropdown-item js-scroll-trigger" href="#malaria">Malarial parasite</a>
-              <a class="dropdown-item js-scroll-trigger" href="#disease">Disease Progression Modelling</a>
+              <a class="dropdown-item js-scroll-trigger" href="/#overview">Overview</a>
+              <a class="dropdown-item js-scroll-trigger" href="/#face">Facial Recognition</a>
+              <a class="dropdown-item js-scroll-trigger" href="/#3d">3D object Recognition</a>
+              <a class="dropdown-item js-scroll-trigger" href="/#malaria">Malarial parasite</a>
+              <a class="dropdown-item js-scroll-trigger" href="/#disease">Disease Progression Modelling</a>
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About Us</a>
+            <a class="nav-link js-scroll-trigger" href="#overview">Overview</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#app">Applications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#obs">Obstacles</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#fut">Future Directions</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#about">About Us</a>
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
@@ -74,14 +86,12 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-10 mx-auto">
-            <h1>What is Vision and Imaging Science?</h1>
+            <h1>What is 3d object recognition?</h1>
             <hr>
-            <p class="text-white">Computer vision and image processing aim to extract useful information from images and movies. Possible applications include face recognition, automated analysis of medical images, robotics, visual inspection for production lines and building 3D models of the real world.
-            <br>
-            Vision and Imaging Science makes use of mathematical techniques including geometry, statistics, physics, statistical decision theory, signal processing, algorithmics and analysis/partial differential equations. Computer vision is closely related to several other academic fields, including computer graphics, neural networks and machine learning, robotics, biological vision and wearable computing.</p>
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/YUaEPV7Qz1c?rel=0"></iframe>
-            </div>
+            <p class="text-white">In 1966 Marvin Minsky said, “Connect a TV camera to a computer and get the machine to describe what it sees”. Back then, computer vision relied heavily on edge detection. This is when computers locate sharp contrasts in light intensity to detect object locations as well as their shape, size and presence in the image.<br><br>
+            During 2001, the ‘Sliding Window’ method was invented. A window slides along the image categorising each window as ‘object’ or ‘non-object’. Usually used in facial recognition, this was one of the most important successes in object recognition. <br><br>
+            Nowadays, there are even more methods for 3D object detection, such as feature-based geometric approaches. This approach works well for objects with distinctive features. The general method for this is pre-capturing a number of fixed views of the object, taking out said distinctive features and then matching them back up to the scene in the recognition process. 
+            </p>
             <hr class="small">
             <!-- /.row (nested) -->
           </div>
@@ -92,16 +102,20 @@
       <!-- /.container -->
     </section>
     
-    <section id="face" class="services bg-white text-primary">
+    <section id="app" class="services bg-white text-primary">
       <div class="container">
-        <div class="row text-center">
+        <div class="row">
           <div class="col-lg-10 mx-auto">
-            <h1>Facial Recognition</h1>
+            <h1>Applications</h1>
             <hr>
-            <p class="text-black">Most face recognition algorithms perform very badly if the face they are supposed to recognize is not in exactly the same pose as the one in their database. The aim is to induce "pose invariance". In other words we want the computer to predict how the person will look from the side even if it only has one frontal snapshot.</p>
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/Lh4WFmpvJsA?rel=0"></iframe>
-            </div>
+            <p class="text-black">3D object recognition is common in every day society, with lots of uses.<br>
+                <u>Video surveillance and People Counting</u><br>
+            This can be used for counting the no. of ppl attending events and festivals. This data is used in statistics. This is difficult as people are non-rigid objects and move fairly quickly outside the frame. People also obstruct one another from view and wear a range of clothing styles.
+            It is also used in speed cameras to detect the speed of vehicles as well as in ‘smart’ pedestrian crossings so traffic lights can change accordingly to the no. of cars and pedestrians.<br> 
+                <u>AR – Augmented Reality</u><br>
+            By detecting real-world objects in real time, we can enhance the view by adding CG overlays and graphics. Most of the time, these programs use ‘markers’ such as special images etc to trigger pre-defined CG graphics.
+            </p>
+            <a href="https://virtualrealitypop.com/object-recognition-in-augmented-reality-8f7f17127a7a">More about Augmented Reality</a>
             <hr class="small">
             <!--
             <div class="row">
@@ -129,16 +143,15 @@
       <!-- /.container -->
     </section>
     <!-- Services -->
-    <section id="3d" class="services bg-primary text-white">
+    <section id="obs" class="services bg-primary text-white">
       <div class="container">
-        <div class="row text-center">
+        <div class="row">
           <div class="col-lg-10 mx-auto">
-            <h1>3D Object Recognition</h1>
+            <h1>Obstacles</h1>
             <hr>
-            <p class="text-white">Being able to recognise an arbitrary, real-world object is a fundamental endeavour of computer vision. However, this task requires the existence of a full 3d model of the object, which itself needs expensive and dedicated hardware. We are examining techniques, whereby we can combine a small number of images in such a way so as to generate valid, novel views of a 3d object and thereby recognise the object directly from its 2d images, without the need for a full 3d model.</p>
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/Lh4WFmpvJsA?rel=0"></iframe>
-            </div>
+            <p class="text-white">As well as expensive, machines have problems with real-time recognition especially if the object is in a different pose (due to the object's position, size, orientation, pose, lighting, etc) than what they have ‘learnt’. It is difficult to imitate the brain’s way of recognising objects with a computer and proves to be the biggest obstacle in computer vision.<br><br>
+                <b>Citation:</b> <a class ="text-white" href="https://doi.org/10.1371/journal.pcbi.0040027">Pinto N, Cox DD, DiCarlo JJ (2008) Why is Real-World Visual Object Recognition Hard? PLoS Comput Biol4(1): e27.</a>
+            </p>
             <hr class="small">
             <!-- /.row (nested) -->
           </div>
@@ -149,16 +162,25 @@
       <!-- /.container -->
     </section>
     <!-- Services -->
-    <section id="malaria" class="services bg-white text-primary">
+    <section id="fut" class="services bg-white text-primary">
       <div class="container">
-        <div class="row text-center">
+        <div class="row">
           <div class="col-lg-10 mx-auto">
-            <h1>Detection of Malarial Parasites</h1>
+            <h1>Future Directions</h1>
             <hr>
-            <p class="text-black">We are focusing on developing a system to measure the degree of infection by malaria parasites using a scan of a colour photograph of stained malarial blood taken using a microscope in order to evaluate the parasitaemia of the blood, i.e. to count the number of parasites per number of red blood cells. A manual analysis of slides is tiring, time-consuming and requires expert technical staff. Our task is thus to automate the counting processes. Therefore, we want to count the red blood cells in addition to counting the parasites. Location is also important especially locating the parasites for visualization purposes.</p>#
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/Lh4WFmpvJsA?rel=0"></iframe>
-            </div>
+            <p class="text-black">One of the most anticipated consequences of 3D object recognition is 3D printing.
+            After recognising and making 3D models, we can use these to 3D print products. At the moment, 3D printing is too slow for mass production but as seen with Adidas, 3D modelling and printing is becoming more apparent in the market.<br>
+            <a href="https://www.economist.com/news/briefing/21724368-recent-advances-make-3d-printing-powerful-competitor-conventional-mass-production-3d">Recent advances make 3d printing poowerful competitor to conventional mass production - Economist</a><br><br>
+                <u>Medical Use:</u><br>
+            Complex 3D models can be printed out that match a patients’ unique condition and anatomy (patient-specific) created from the patient’s imaging data – some devices are more general purpose and can be mass produced.
+            Examples include implants and external prosthetics such as arms and hands. There is undergoing research to be able to 3D print organs such as hearts and livers but it is still in early stages. 
+            Here’s a FDA Powder Bed Fusion Printer 
+            </p>
+            <img class="img-fluid" src="/img/printer.jpg"><br>
+            <a href="https://www.fda.gov/MedicalDevices/ProductsandMedicalProcedures/3DPrintingofMedicalDevices/ucm500539.htm">Source</a><br>
+            <p  class="text-black">Currently, this publication talks about Image Quality Transfer (IQT) from UCL researchers. IQT uses machine learning to transfer one-off high quality images from experimental medical imaging devices to the more common lower quality machines. The machines can use this information to then improve low quality images by enhancing image resolution.<br>
+            Alexander, D.C., Zikic, D., Ghosh, A., Tanno, R., Wottschel, V., Zhang, J., ...Zhang, H. (2017). Image quality transfer and applications in diffusion MRI.. Neuroimage, doi:10.1016/j.neuroimage.2017.02.089
+            </p>
             <hr class="small">
             <!-- /.row (nested) -->
           </div>
@@ -169,25 +191,6 @@
       <!-- /.container -->
     </section>
     <!-- Services -->
-    <section id="disease" class="services bg-primary text-white">
-      <div class="container">
-        <div class="row text-center">
-          <div class="col-lg-10 mx-auto">
-            <h1>Disease Progression Modelling</h1>
-            <hr>
-            <p class="text-white">The project aims to recover the series of events that take place as a disease plays out. In Alzheimer's disease for example, several symptoms and pathologies appear, such as memory impairment, personality changes, protein deposits in brain tissue, and regional grey matter atrophy. However, several other neurological diseases share these events. Their order of appearance and severity distinguish different diseases. However, current models of this progression are largely hypothetical. We use image analysis and machine learning to recover the series of events that characterise a particular disease from large cross-sectional data sets: typical data sets include many patients, but only acquired at a single time at some unique and unknown stage of the disease. The learning problem is to order the patients in terms of disease stage and then infer the characteristic progression pattern.</p>
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/Lh4WFmpvJsA?rel=0"></iframe>
-            </div>
-            <hr class="small">
-            <!-- /.row (nested) -->
-          </div>
-          <!-- /.col-lg-10 -->
-        </div>
-        <!-- /.row -->
-      </div>
-      <!-- /.container -->
-    </section>
     <!-- Footer -->
     <!-- About -->
       
