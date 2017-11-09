@@ -42,15 +42,27 @@
               Areas
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item js-scroll-trigger" href="#overview">Overview</a>
-              <a class="dropdown-item js-scroll-trigger" href="#face">Facial Recognition</a>
-              <a class="dropdown-item js-scroll-trigger" href="#3d">3D object Recognition</a>
-              <a class="dropdown-item js-scroll-trigger" href="#malaria">Malarial parasite</a>
-              <a class="dropdown-item js-scroll-trigger" href="#disease">Disease Progression Modelling</a>
+              <a class="dropdown-item js-scroll-trigger" href="/#overview">Overview</a>
+              <a class="dropdown-item js-scroll-trigger" href="/#face">Facial Recognition</a>
+              <a class="dropdown-item js-scroll-trigger" href="/#3d">3D object Recognition</a>
+              <a class="dropdown-item js-scroll-trigger" href="/#malaria">Malarial parasite</a>
+              <a class="dropdown-item js-scroll-trigger" href="/#disease">Disease Progression Modelling</a>
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About Us</a>
+            <a class="nav-link js-scroll-trigger" href="#overview">Overview</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#app">Application</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#res">General Research</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#paper">UCL Research</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#about">About Us</a>
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
@@ -92,16 +104,17 @@
       <!-- /.container -->
     </section>
     
-    <section id="face" class="services bg-white text-primary">
+    <section id="app" class="services bg-white text-primary">
       <div class="container">
         <div class="row text-center">
           <div class="col-lg-10 mx-auto">
-            <h1>Facial Recognition</h1>
+            <h1>How is vision and imaging science helping to detect malarial parasites?</h1>
             <hr>
-            <p class="text-black">Most face recognition algorithms perform very badly if the face they are supposed to recognize is not in exactly the same pose as the one in their database. The aim is to induce "pose invariance". In other words we want the computer to predict how the person will look from the side even if it only has one frontal snapshot.</p>
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/Lh4WFmpvJsA?rel=0"></iframe>
-            </div>
+            <p class="text-black">Microscopy, the conventional method of detecting malarial parasites, is very time consuming especially when tons of samples are needed to be analysed. <br><br>
+
+            The application of image processing on the detection of malarial parasites greatly improves its efficiency by digitalisation and generating automatic analysis. 
+            </p>
+            <img class="img-fluid" src="/img/flow.jpg">
             <hr class="small">
             <!--
             <div class="row">
@@ -129,16 +142,13 @@
       <!-- /.container -->
     </section>
     <!-- Services -->
-    <section id="3d" class="services bg-primary text-white">
+    <section id="res" class="services bg-primary text-white">
       <div class="container">
         <div class="row text-center">
           <div class="col-lg-10 mx-auto">
-            <h1>3D Object Recognition</h1>
+            <h1>Current research and Progression</h1>
             <hr>
-            <p class="text-white">Being able to recognise an arbitrary, real-world object is a fundamental endeavour of computer vision. However, this task requires the existence of a full 3d model of the object, which itself needs expensive and dedicated hardware. We are examining techniques, whereby we can combine a small number of images in such a way so as to generate valid, novel views of a 3d object and thereby recognise the object directly from its 2d images, without the need for a full 3d model.</p>
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/Lh4WFmpvJsA?rel=0"></iframe>
-            </div>
+            <p class="text-white"></p>
             <hr class="small">
             <!-- /.row (nested) -->
           </div>
@@ -149,16 +159,13 @@
       <!-- /.container -->
     </section>
     <!-- Services -->
-    <section id="malaria" class="services bg-white text-primary">
+    <section id="paper" class="services bg-white text-primary">
       <div class="container">
         <div class="row text-center">
           <div class="col-lg-10 mx-auto">
-            <h1>Detection of Malarial Parasites</h1>
+            <h1>Paper and Researchers from UCL</h1>
             <hr>
-            <p class="text-black">We are focusing on developing a system to measure the degree of infection by malaria parasites using a scan of a colour photograph of stained malarial blood taken using a microscope in order to evaluate the parasitaemia of the blood, i.e. to count the number of parasites per number of red blood cells. A manual analysis of slides is tiring, time-consuming and requires expert technical staff. Our task is thus to automate the counting processes. Therefore, we want to count the red blood cells in addition to counting the parasites. Location is also important especially locating the parasites for visualization purposes.</p>#
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/Lh4WFmpvJsA?rel=0"></iframe>
-            </div>
+            <p class="text-black"></p>
             <hr class="small">
             <!-- /.row (nested) -->
           </div>
@@ -169,25 +176,6 @@
       <!-- /.container -->
     </section>
     <!-- Services -->
-    <section id="disease" class="services bg-primary text-white">
-      <div class="container">
-        <div class="row text-center">
-          <div class="col-lg-10 mx-auto">
-            <h1>Disease Progression Modelling</h1>
-            <hr>
-            <p class="text-white">The project aims to recover the series of events that take place as a disease plays out. In Alzheimer's disease for example, several symptoms and pathologies appear, such as memory impairment, personality changes, protein deposits in brain tissue, and regional grey matter atrophy. However, several other neurological diseases share these events. Their order of appearance and severity distinguish different diseases. However, current models of this progression are largely hypothetical. We use image analysis and machine learning to recover the series of events that characterise a particular disease from large cross-sectional data sets: typical data sets include many patients, but only acquired at a single time at some unique and unknown stage of the disease. The learning problem is to order the patients in terms of disease stage and then infer the characteristic progression pattern.</p>
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/Lh4WFmpvJsA?rel=0"></iframe>
-            </div>
-            <hr class="small">
-            <!-- /.row (nested) -->
-          </div>
-          <!-- /.col-lg-10 -->
-        </div>
-        <!-- /.row -->
-      </div>
-      <!-- /.container -->
-    </section>
     <!-- Footer -->
     <!-- About -->
       
