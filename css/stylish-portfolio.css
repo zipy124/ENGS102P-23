@@ -100,6 +100,10 @@ hr.small {
     background: url(../img/mosq.jpg) no-repeat center center scroll;
 }
 
+.disease{
+    background: url(../img/old.jpg) no-repeat center center scroll;
+}
+
 /* About */
 
 .about {
